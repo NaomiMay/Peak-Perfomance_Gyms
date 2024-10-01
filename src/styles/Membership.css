@@ -1,0 +1,40 @@
+.heroContainer {
+  position: relative;
+  width: 100%;
+}
+
+.cardContainer {
+  padding: 80px 40px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: auto auto;
+  gap: 10px;
+  justify-items: center;
+}
+
+@media screen and (max-width: 1000px) {
+  .cardContainer {
+    padding: 100px 20px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .cardContainer {
+    grid-template-columns: 50% 50%;
+    grid-template-rows: auto auto auto;
+    padding: 60px 20px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .cardContainer {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .cardContainer {
+    padding: 150px 20px;
+  }
+}

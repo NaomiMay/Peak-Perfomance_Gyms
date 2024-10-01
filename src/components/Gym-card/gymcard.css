@@ -1,0 +1,48 @@
+.gymCard {
+  width: 300px;
+  color: #fef3e2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.gymCardImage {
+  position: absolute;
+  height: 300px;
+  z-index: 0;
+}
+.gymCard,
+.gymCardImage {
+  height: 400px;
+  padding: 10px;
+}
+
+.gymCardText {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  width: 60%;
+}
+
+.gymName,
+.description {
+  position: relative;
+  z-index: 2;
+}
+
+.gymName {
+  font-size: larger;
+}
+.description {
+  font-size: 0.8rem;
+}
+
+@media screen and (max-width: 1000px) {
+  .gymCard,
+  .gymCardImage {
+    height: 300px;
+  }
+  .gymCard {
+    width: 230px;
+  }
+}

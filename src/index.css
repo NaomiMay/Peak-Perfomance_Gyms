@@ -1,0 +1,12 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #fef3e2;
+  color: #606676;
+  font-family: "Montserrat", sans-serif;
+}
+@media screen and (max-width: 400px) {
+  .appNav {
+    display: none;
+  }
+}

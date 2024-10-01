@@ -1,0 +1,26 @@
+.btn {
+  width: 100px;
+  margin: 10px auto;
+  background-color: #bec6a0;
+  color: #fef3e2;
+  border: 0;
+  border-radius: 5px;
+  padding: 10px;
+  font-family: "Montserrat", sans-serif;
+}
+
+.btn:hover {
+  box-shadow: 0 8px 12px 0 #708871, 0 10px 20px 0 #708871;
+}
+
+.buttonContainer {
+  display: flex;
+  justify-content: center;
+}
+@media screen and (max-width: 800px) {
+  .btn {
+    width: 100px;
+    padding: 5px;
+    font-size: x-small;
+  }
+}

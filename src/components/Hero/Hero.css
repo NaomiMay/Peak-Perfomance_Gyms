@@ -1,0 +1,89 @@
+.heroContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 90px;
+  background-size: cover;
+  background-position: center;
+}
+
+.heroImage {
+  position: absolute;
+  z-index: 0;
+  width: 100%;
+  height: auto;
+}
+
+.titleContainer {
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #fef3e2;
+  margin-top: 20%;
+}
+
+.title {
+  position: relative;
+  font-size: 4rem;
+  letter-spacing: 0.5rem;
+}
+.subtitle {
+  position: relative;
+  letter-spacing: 0.1rem;
+}
+
+@media screen and (max-width: 900px) {
+  .heroContainer {
+    margin-bottom: 40px;
+  }
+  .titleContainer {
+    margin-top: 100px;
+  }
+  .title {
+    font-size: 3rem;
+  }
+  .subtitle {
+    font-size: 1.5rem;
+  }
+  .heroBtn {
+    display: none;
+  }
+}
+@media screen and (max-width: 700px) {
+  .title {
+    font-size: 2rem;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .titleContainer {
+    margin-top: 100px;
+  }
+  .title {
+    font-size: 1.5rem;
+  }
+  .subtitle {
+    font-size: 1rem;
+  }
+}
+@media screen and (max-width: 400px) {
+  .title {
+    font-size: 1rem;
+  }
+  .subtitle {
+    font-size: 0.85rem;
+  }
+}
+
+@media screen and (min-width: 1400px) {
+  .homeMain {
+    margin-top: 300px;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .homeMain {
+    margin-top: 100px;
+  }
+}

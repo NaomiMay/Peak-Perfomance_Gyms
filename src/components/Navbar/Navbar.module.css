@@ -1,0 +1,38 @@
+.navContainer {
+  display: flex;
+  position: absolute;
+  justify-content: center;
+  align-items: center;
+  z-index: 2;
+  padding: 30px 0;
+  width: 100%;
+}
+
+.contactNav {
+  color: pink;
+}
+
+.navUl {
+  display: flex;
+  flex-flow: row nowrap;
+  list-style: none;
+  gap: 20px;
+}
+.navItem {
+  text-decoration: none;
+  list-style: none;
+  color: #fef3e2;
+  font-weight: 500;
+  font-size: larger;
+}
+.navItem:hover {
+  color: #d1c8bb;
+}
+.contactNavItem {
+  color: #606676;
+  text-decoration: none;
+}
+
+.contactNavItem:hover {
+  color: #d1c8bb;
+}

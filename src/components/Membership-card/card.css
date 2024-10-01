@@ -1,0 +1,42 @@
+.card {
+  width: 350px;
+  height: 350px;
+  color: #fef3e2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cardImage {
+  position: absolute;
+  height: 300px;
+  z-index: 0;
+}
+
+.cardText {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.memHeading {
+  position: relative;
+  font-size: x-large;
+  z-index: 2;
+}
+
+.blurb {
+  position: relative;
+  font-size: x-large;
+  z-index: 2;
+  font-size: smaller;
+}
+
+@media screen and (max-width: 1200px) {
+  .card {
+    width: 220px;
+    height: 220px;
+  }
+  .cardImage {
+    height: 200px;
+  }
+}

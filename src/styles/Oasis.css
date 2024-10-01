@@ -1,0 +1,116 @@
+.heroContainer {
+  position: relative;
+  width: 100%;
+}
+.oasisMain {
+  position: absolute;
+  margin-top: 0;
+  height: auto;
+}
+.oasisAbout {
+  align-items: center;
+  justify-items: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 80px 150px;
+  gap: 100px;
+}
+
+.blurbContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.om {
+  height: 300px;
+}
+.facilitiesContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.facilityPhotos {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.facilityImage {
+  height: 400px;
+  padding: 15px;
+}
+.facilitiesP {
+  width: 80%;
+}
+
+.offersContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.allOffers {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  width: 80%;
+}
+
+@media screen and (max-width: 1400px) {
+  .oasisAbout {
+    padding: 50px 100px;
+    gap: 50px;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .facilityPhotos {
+    grid-template-columns: 50% 50%;
+    grid-template-rows: auto auto;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .oasisAbout {
+    padding: 10px 50px;
+    gap: 50px;
+  }
+  .blurbContainer {
+    font-size: x-small;
+  }
+  .om {
+    height: 200px;
+  }
+
+  .facilitiesContainer {
+    font-size: smaller;
+  }
+}
+@media screen and (max-width: 800px) {
+  .oasisAbout {
+    margin-top: 50px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .facilityPhotos {
+    grid-template-columns: 100%;
+    grid-template-rows: auto auto auto auto;
+  }
+  .offersContainer {
+    font-size: smaller;
+  }
+  .oasisAbout {
+    display: flex;
+    flex-direction: column;
+  }
+  .om {
+    height: 150px;
+  }
+}
+@media screen and (max-width: 400px) {
+  .facilityImage {
+    height: 300px;
+  }
+}
